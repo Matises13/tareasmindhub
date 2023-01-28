@@ -7,7 +7,13 @@
 .img-banner{
     background: url(../img/design1_image1.jpg);
     height: 400px;
-    background-position:center;
+    background-position:0 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    
 }
 
 
