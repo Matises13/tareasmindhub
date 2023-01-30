@@ -1,19 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
 }
 
 .img-banner{
     background: url(../img/design1_image1.jpg);
-    height: 400px;
-    background-position:0 60%;
+    height: 300px;
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.title{
-    
+.title-principal{
+    font-size: 45px;
+    position: absolute;
+    top: 15px;
 }
 
+.title-section{
+    background-color: black;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+h2{
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    top: 280px;
+    left: 1100px;
+}
+
+#imagen-uno{
+    width: 80px;
+    height: 80px;
+}
+
+.navegador{
+    position: absolute;
+    padding: 15px;
+    top: 490px;
+    left: 90px;
+    font-size: 25px;
+}
+
+a{
+    display: block;
+    padding: 25px;
+    top: 100px;
+}
+
+.articulo-principal{
+    position: absolute;
+    top: 450px;
+    left: 300px;
+    font-size: 25px;
+    padding: 45px;
+}
+
+li{
+    margin: 25px;
+    list-style-type: none;
+}
 
