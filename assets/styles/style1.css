@@ -50,10 +50,15 @@ h2{
     font-size: 25px;
 }
 
-a{
+.nav-uno, .nav-dos, .nav-tres{
     display: block;
     padding: 25px;
     top: 100px;
+}
+
+.active{
+    text-decoration: none;
+    color: rgb(0,0,0);
 }
 
 .articulo-principal{
