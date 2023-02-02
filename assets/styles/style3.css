@@ -54,11 +54,11 @@
     position: absolute;
     padding: 15px 10px;
     top: 30px;
-    left: 990px;
+    left: 790px;
     font-size: 15px;
 }
 
-.nav-uno, .nav-dos, .nav-tres{
+.nav-uno, .nav-dos, .nav-tres, .nav-cuatro, .nav-cinco{
     display: inline;
     padding: 10px 10px;
     top: 100px;
@@ -96,5 +96,20 @@
 
 li{
     margin: 25px;
-    list-style-type: none;
+    /* list-style-type: none; */
+}
+/* Style of Game info */
+
+
+/*Style de Rules */
+
+.contenedor-texto{
+    display: flex;
+    position: relative;
+    top: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 }
