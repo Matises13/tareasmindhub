@@ -19,8 +19,6 @@
     background-repeat: no-repeat;
     position: relative;
     top: 70px;
-    /* left: 30px; */
-
 }
 
 .titulo-principal{
@@ -110,7 +108,6 @@ li{
     justify-content: center;
     align-items: flex-start;
     padding: 0px 25px;
-
 }
 
 .contenedor-tabla{
@@ -153,6 +150,7 @@ th{
     align-items: flex-start;
     padding: 10px 25px 100px;
 }
+
 .foot{
     display: flex;
     justify-content: space-evenly;
