@@ -151,8 +151,15 @@ th{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0px 25px;
+    padding: 10px 25px 100px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.foot p{
+    margin: 0 100px;
 }
 
 /*Style de Rules */
